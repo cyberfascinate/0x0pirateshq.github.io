@@ -1,0 +1,18 @@
+<svg width="1200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title {
+      font-family: 'Arial', sans-serif;
+      font-size: 150px;
+      font-weight: bold;
+      fill: #FFFFFF;
+    }
+    .subtitle {
+      font-family: 'Arial', sans-serif;
+      font-size: 75px;
+      fill: #FFFFFF;
+    }
+  </style>
+  <text x="50" y="200" class="title">0x0 Pirates</text>
+  <text x="50" y="280" class="subtitle">Exploration. Learning. Dominance.</text>
+</svg>
+

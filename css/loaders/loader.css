@@ -1,0 +1,64 @@
+/* Existing styles from your CSS file */
+.loader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: #0c0c0c; /* Black background */
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s ease-in-out;
+}
+.loader.loaded {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader__content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; /* Center align text within SVG */
+}
+
+/* Optional: animation for scaling out */
+@-webkit-keyframes scaleOut {
+  from {
+    transform: scale3d(1, 1, 1);
+    opacity: 1;
+  }
+  to {
+    transform: scale3d(1.14, 1.14, 1.14);
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes scaleOut {
+  from {
+    transform: scale3d(1, 1, 1);
+    opacity: 1;
+  }
+  to {
+    transform: scale3d(1.14, 1.14, 1.14);
+    opacity: 0;
+  }
+}
+
+@keyframes scaleOut {
+  from {
+    transform: scale3d(1, 1, 1);
+    opacity: 1;
+  }
+  to {
+    transform: scale3d(1.14, 1.14, 1.14);
+    opacity: 0;
+  }
+}
+
+.scaleOut {
+  animation: scaleOut 0.3s 1;
+  animation-fill-mode: both;
+}
