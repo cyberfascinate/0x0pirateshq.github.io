@@ -138,7 +138,7 @@ $(function() {
   // --------------------------------------------- //
   // KBW-Countdown Start
   // --------------------------------------------- //
-  $('#countdown').countdown({until: $.countdown.UTCDate(+10, 2024, 8, 9), format: 'D'});
+  $('#countdown').countdown({until: $.countdown.UTCDate(+10, 2024, 11, 12), format: 'D'});
   // --------------------------------------------- //
   // KBW-Countdown End
   // --------------------------------------------- //
